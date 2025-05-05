@@ -1,0 +1,49 @@
+body {
+    background-color: #135E4B;
+    font-family: 'Roboto Mono', monospace;
+    color: #DFF6E7;
+}
+a {
+    color: #92FDDB;
+}
+a:hover {
+    color: #ff6347;
+}
+h2 {
+    margin: 0;
+    text-align: left;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+header, section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.nav p {
+    margin: 0;
+}
+.item {
+    background: #083A2D;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .content {
+        display: flex;
+        justify-content: space-between;
+    }
+    .column {
+        flex: 1;
+    }
+}
