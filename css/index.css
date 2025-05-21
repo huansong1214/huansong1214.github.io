@@ -37,6 +37,21 @@ header, section {
     padding: 20px;
     border-radius: 10px;
 }
+.entry {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.titles {
+    display: flex;
+    flex-direction: column;
+}
+.titles h3:first-child {
+    margin-bottom: 0;
+}
+h3, h4, .markey ul {
+    margin-top: 0;
+}
 
 @media screen and (min-width: 768px) {
     .content {
