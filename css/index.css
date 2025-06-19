@@ -72,6 +72,14 @@ h3, h4, .markey ul {
     gap: 10px;
 }
 
+.repo-card p,
+.repo-card a {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 @media screen and (min-width: 768px) {
     .content {
         display: flex;
