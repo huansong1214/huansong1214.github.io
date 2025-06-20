@@ -1,4 +1,4 @@
-fetch('https://api.github.com/users/huansong1214/repos')
+fetch('https://api.github.com/users/huansong1214/repos?sort=updated&direction=desc')
     .then(responses => responses.json())
     .then(repos => {
         const container = document.getElementById(`repo-container`)
